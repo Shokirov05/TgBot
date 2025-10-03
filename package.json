@@ -1,0 +1,32 @@
+{
+  "name": "telegram-poll-bot",
+  "version": "2.0.0",
+  "description": "Advanced Telegram bot with user registration and polling system",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "start:dev": "nodemon src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "polls",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "Muhammaddiyor",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "mongoose": "^8.0.3",
+    "nodemailer": "^6.9.7",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
